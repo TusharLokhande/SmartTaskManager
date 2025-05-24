@@ -1,0 +1,42 @@
+# =========================
+# .NET (Backend)
+# =========================
+## Build results
+**/bin/
+**/obj/
+**/out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## ASP.NET Core
+appsettings.*.json
+appsettings.Local.json
+appsettings.Development.json
+
+## Entity Framework
+Migrations/
+
+## Others
+*.log
+*.db
+*.pid
+*.sqlite
+
+# Rider-specific
+.idea/
+
+# =========================
+# Global (Optional)
+# =========================
+*.swp
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Ignore test coverage (if any)
+coverage/
